@@ -21,7 +21,7 @@ agent any
     }
     stage('Run Application'){
       steps{
-        sh 'java -jar target/2023Simplemavenlist-1.0-SNAPSHOT.jar'
+        sh 'java -jar target/*.jar'
       }
     }
   }
